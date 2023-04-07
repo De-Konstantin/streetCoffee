@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Cafe Street</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+
+
+	<link rel="stylesheet" href="css/style.min.css?_v=20230406233903">
+	<link rel="shortcut icon" href="favicon.png">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<header data-scroll="120" data-scroll-show="500" class="header">
+			<div class="header__container ">
+
+				<a href="#" class="header__logo"><img src="img/header/logo_coffe.png" alt="Logo"></a>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" data-goto-header data-goto=".about" class="menu__link">About us</a>
+							</li>
+							<li class="menu__item"><a href="#" data-goto-header data-goto=".menu__container" class="menu__link">Our
+									Product</a></li>
+							<li class="menu__item"><a href="#" data-goto-header data-goto=".service__container" class="menu__link">Delivery</a></li>
+
+
+							<!-- <li class="menu__item"><a href="#" class="menu__link">About us</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">Our Product</a></li>
+					<li class="menu__item"><a href="#" class="menu__link">Delivery</a></li>
+
+ -->
+
+
+
+						</ul>
+					</nav>
+				</div>
+
+				<div class="header__buttons">
+					<form action="#" class="header__search">
+						<button type="button" class="_icon-search"></button>
+						<input type="text" aria-label="Search through site content" name="" id="" placeholder="Cappucino">
+
+
+
+					</form>
+
+
+					<div class="header__actions actions-header">
+
+						<div class="actions-header__item cart-header">
+							<button class="cart-header__icon _icon-cart"></button>
+							<div class="cart__text"><span class="cart__quantity"></span>
+							</div>
+							<div class="cart-header__body">
+
+
+								<ul id="app" data-simplebar class="cart-header__list cart-list">
+
+
+
+								</ul>
+
+
+								<div class="cart-content__bottom">
+									<div class="cart-content__fullprice">
+										<span>Amount:</span>
+										<span class="fullprice">0</span>
+									</div>
+									<button class="cart-content__btn" data-popup="#popup">Go
+										to cart</button>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="main">
+				<div class="main__container">
+					<img src="img/main/deco/bg_img_hero.png" class="main__deco1" alt="">
+					<img src="img/main/deco/bg_img_hero.png" class="main__deco2" alt="">
+
+					<img src="img/main/deco/deco.png" data-prlx-mouse data-prlx-cx="60" data-prlx-dxy data-prlx-dxr data-prlx-cy="45" class="main__deco" alt="">
+					<img src="img/main/deco/deco1.png" data-prlx-mouse data-prlx-cx="50" data-prlx-a="30" data-prlx-cy="60" class="main__deco" alt="">
+					<img src="img/main/deco/deco2.png" data-prlx-mouse data-prlx-cx="40" data-prlx-dxr data-prlx-cy="45" class="main__deco" alt="">
+					<img src="img/main/deco/deco3.png" data-prlx-mousedata-prlx-cx="70" data-prlx-dxr data-prlx-a="40" data-prlx-cy="35" class="main__deco" alt="">
+					<img src="img/main/deco/deco4.png" data-prlx-mouse data-prlx-cx="75" data-prlx-dxr data-prlx-cy="45" data-prlx-a="20" class="main__deco" alt="">
+					<img src="img/main/deco/deco5.png" data-prlx-mouse data-prlx-cx="80" data-prlx-dxy data-prlx-a="30" data-prlx-cy="50" class="main__deco" alt="">
+					<img src="img/main/deco/deco.png" data-prlx-mouse class="main__deco" alt="">
+					<img src="img/main/deco/deco1.png" data-prlx-mouse data-prlx-cx="55" data-prlx-dxy data-prlx-cy="60" data-prlx-a="20" class="main__deco" alt="">
+					<img src="img/main/deco/deco2.png" data-prlx-mouse data-prlx-cx="40" data-prlx-a="30" data-prlx-cy="45" class="main__deco" alt="">
+					<img src="img/main/deco/deco3.png" data-prlx-mouse data-prlx-cx="45" data-prlx-dxy data-prlx-dxr data-prlx-cy="45" data-prlx-a="20" class="main__deco" alt="">
+					<img src="img/main/deco/deco4.png" data-prlx-mouse data-prlx-cx="45" data-prlx-cy="35" class="main__deco" alt="">
+					<img src="img/main/deco/deco5.png" data-prlx-mouse data-prlx-cx="35" data-prlx-a="30" data-prlx-cy="45" class="main__deco" alt="">
+					<img src="img/main/deco/deco.png" data-prlx-mouse data-prlx-cx="45" data-prlx-dxy data-prlx-dxr data-prlx-cy="60" data-prlx-a="20" class="main__deco" alt="">
+					<img src="img/main/deco/deco1.png" data-prlx-mouse data-prlx-cx="45" data-prlx-cy="45" data-prlx-a="40" class="main__deco" alt="">
+					<img src="img/main/deco/deco2.png" data-prlx-mouse data-prlx-cx="35" data-prlx-dxy data-prlx-dxr data-prlx-cy="50" class="main__deco" alt="">
+					<img src="img/main/deco/deco3.png" data-prlx-mouse data-prlx-cx="35" data-prlx-cy="45" class="main__deco" alt="">
+					<img src="img/main/deco/deco4.png" data-prlx-mouse data-prlx-cx="60" data-prlx-dxy data-prlx-cy="35" data-prlx-a="20" class="main__deco" alt="">
+					<img src="img/main/deco/deco5.png" data-prlx-mouse data-prlx-cx="45" data-prlx-cy="45" data-prlx-a="40" class="main__deco" alt="">
+					<img src="img/main/deco/deco.png" data-prlx-mouse data-prlx-cx="35" data-prlx-dxy data-prlx-dxr data-prlx-cy="50" class="main__deco" alt="">
+					<img src="img/main/deco/deco1.png" data-prlx-mouse data-prlx-cx="55" data-prlx-cy="50" class="main__deco" alt="">
+					<img src="img/main/deco/deco2.png" data-prlx-mouse data-prlx-cx="60" data-prlx-dxr data-prlx-cy="45" data-prlx-a="40" class="main__deco" alt="">
+					<img src="img/main/deco/deco3.png" data-prlx-mouse data-prlx-cx="55" data-prlx-dxy data-prlx-cy="50" class="main__deco" alt="">
+					<img src="img/main/deco/deco4.png" data-prlx-mouse data-prlx-cx="60" data-prlx-cy="45" data-prlx-a="20" class="main__deco" alt="">
+
+
+
+
+					<article class="main__content content-main _anim-no-hide _anim-items">
+						<h1 class="content-main__title">Enjoy your <span>coffee</span> before your activity</h1>
+						<p class="content-main__text">Boost your productivity and build your mood with a glass of coffee in
+							the
+							morning </p>
+						<div class="content-main__buttons">
+							<button class="content-main__button">Order now<span class="_icon-cart"></span></button>
+							<a href="№" data-goto-header data-goto=".menu__container" class="content-main__link">More
+								menu</a>
+						</div>
+					</article>
+					<div class="main__item item-main _anim-no-hide _anim-items">
+						<img src="img/main/cappuccino.png" alt="image cappuccino" class="item-main__img">
+						<h4 class="item-main__title item-bg">Cappuccino</h4>
+						<div class="item-main__rating item-bg">4.8<span class="_icon-star"></span></div>
+						<div class="item-main__price item-bg">1.8$</div>
+					</div>
+				</div>
+			</section>
+			<section class="popular _anim-no-hide _anim-items">
+				<div class="popular__container">
+					<div class="popular__wrapper">
+						<div class="popular__bg">
+							<svg width="1268" height="364" viewBox="0 0 1268 364" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M0 64.9359C0 28.0895 31.0343 -1.14672 67.8151 1.04973L1207.82 69.1273C1241.62 71.146 1268 99.149 1268 133.014V300C1268 335.346 1239.35 364 1204 364H64C28.6538 364 0 335.346 0 300V64.9359Z" fill="#F9D9AA" />
+							</svg>
+
+						</div>
+						<h2 class="popular__title title">Popular <span>Now</span></h2>
+						<div class="popular__items">
+							<div class="popular__item-prod prod-item product">
+								<div class="prod-item__rating bg-rating">4.7 <span class="_icon-star"></span></div>
+								<div class="prod-item__img">
+									<img src="img/popular/vanilla'.png" class="item__img-prod" alt="item image">
+								</div>
+								<div class="prod-item__content">
+									<div class="prod-item__desc">
+										<h3 class="prod-item__title item-menu__title">Vanilla Latte</h3>
+										<div class="prod-item__price price">2.1 $</div>
+
+									</div>
+									<form action="#" class="prod-item__order">
+										<div class="prod-item__radio">
+											<input type="radio" name="vanilla" id="hotVanilla">
+											<label for="hotVanilla">hot</label>
+											<input type="radio" name="vanilla" id="coldVanilla">
+											<label for="coldVanilla">cold</label>
+										</div>
+										<button type="button" data-cart class="button item-menu__button _icon-cart"></button>
+									</form>
+								</div>
+							</div>
+							<div class="popular__item-prod prod-item product">
+								<div class="prod-item__rating bg-rating">4.6 <span class="_icon-star"></span></div>
+								<div class="prod-item__img">
+									<img src="img/popular/espresso.png" class="item__img-prod" alt="item image">
+								</div>
+								<div class="prod-item__content">
+									<div class="prod-item__desc">
+										<h3 class="prod-item__title item-menu__title">Espresso</h3>
+										<div class="prod-item__price price">1.3 $</div>
+
+									</div>
+									<form action="#" class="prod-item__order">
+										<div class="prod-item__radio">
+											<input type="radio" name="vanilla" id="hotespresso">
+											<label for="hotespresso">hot</label>
+											<input type="radio" name="vanilla" id="coldespresso">
+											<label for="coldespresso">cold</label>
+										</div>
+										<button type="button" data-cart class="button  item-menu__button _icon-cart"></button>
+									</form>
+								</div>
+							</div>
+							<div class="popular__item-prod prod-item product">
+								<div class="prod-item__rating bg-rating">4.9 <span class="_icon-star"></span></div>
+								<div class="prod-item__img">
+									<img src="img/popular/hazelnut.png" class="item__img-prod" alt="item image">
+								</div>
+								<div class="prod-item__content">
+									<div class="prod-item__desc">
+										<h3 class="prod-item__title item-menu__title">Hazelnut Latte</h3>
+										<div class="prod-item__price price">2.3 $</div>
+
+									</div>
+									<form action="#" class="prod-item__order">
+										<div class="prod-item__radio">
+											<input type="radio" name="vanilla" id="hothazelnut">
+											<label for="hothazelnut">hot</label>
+											<input type="radio" name="vanilla" id="coldhazelnut">
+											<label for="coldhazelnut">cold</label>
+										</div>
+										<button type="button" data-cart class="button item-menu__button _icon-cart"></span></button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="service">
+				<div class="service__container">
+					<h2 class="service__title title _anim-no-hide _anim-items">How to use delivery <span>service</span></h2>
+					<div class="service__items _anim-no-hide _anim-items">
+						<div class="service__item">
+							<img src="img/service/cup.png" alt="cup coffee">
+							<h3 class="service__item-title">choose your coffee</h3>
+							<p>there are 20+ coffees for you</p>
+						</div>
+
+						<div class="service__item">
+							<img src="img/service/food-truck.png" alt="cup coffee">
+							<h3 class="service__item-title">we delivery it to you</h3>
+							<p>Choose delivery service</p>
+						</div>
+
+						<div class="service__item">
+							<img src="img/service/coffee-cup.png" alt="cup coffee">
+							<h3 class="service__item-title">Enjoy your coffee</h3>
+							<p>Choose delivery service</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="about">
+				<div class="about__container">
+					<img class="about-img _anim-no-hide _anim-items" src="img/about/coffee.png" alt="image coffee">
+					<div class="about__content content-about _anim-no-hide _anim-items">
+						<h2 class="content-about__title title">About <span>us</span></h2>
+						<h3 class="content-about__subtitle">We provide quality coffee, and ready to deliver.</h3>
+						<p>We are a company that makes and distributes delicious drinks. our main product is made with a
+							secret recipe and available in stores worldwide.</p>
+						<a href="#" class="content-about__link">Get your coffee</a>
+					</div>
+				</div>
+			</section>
+			<section class="menu">
+				<div class="menu__container">
+					<h2 class="menu__title title _anim-no-hide _anim-items">Special menu <span>for you</span></h2>
+					<div class="menu__items _anim-no-hide _anim-items">
+						<div class="menu__item item-menu product">
+							<div class="item-menu__rating bg-rating">4.7 <span class="_icon-star"></span></div>
+							<div class="item-menu__img">
+								<img src="img/menu/sandwich.png" class="item__img-prod" alt="item image">
+							</div>
+							<div class="item-menu__content">
+								<div class="item-menu__desc">
+									<h3 class="item-menu__title">Sandwich</h3>
+									<p>
+										bread with meat and vegetables
+
+									</p>
+
+								</div>
+								<div class="item-menu__desc2">
+									<div class="item-menu__price price">2.3 $</div>
+									<button data-cart type="submit" class="item-menu__button button _icon-cart"></button>
+								</div>
+							</div>
+						</div>
+						<div class="menu__item item-menu product">
+							<div class="item-menu__rating bg-rating">
+								4.9
+								<span class="_icon-star"></span>
+							</div>
+							<div class="item-menu__img">
+								<img src="img/menu/HotMilk.png" class="item__img-prod" alt="item image">
+							</div>
+							<div class=" item-menu__content">
+								<div class="item-menu__desc">
+									<h3 class="item-menu__title">
+										Hot Milk
+
+									</h3>
+									<p>
+										Hot Milk with less sugar
+
+									</p>
+
+								</div>
+								<div class="item-menu__desc2">
+									<div class="item-menu__price price">
+										1.7 $
+									</div>
+									<button data-cart type="submit" class="item-menu__button button"><span data-cart class="_icon-cart"></button>
+								</div>
+							</div>
+						</div>
+
+						<div class="menu__item item-menu product">
+							<div class="item-menu__rating bg-rating">
+								4.5
+								<span class="_icon-star"></span>
+							</div>
+							<div class="item-menu__img">
+								<img src="img/menu/IceCream.png" class="item__img-prod" alt="item image">
+							</div>
+							<div class="item-menu__content">
+								<div class="item-menu__desc">
+									<h3 class="item-menu__title">
+
+										Coffe Ice Cream
+									</h3>
+									<p>
+										Coffe with ice cream vanilla
+
+									</p>
+
+								</div>
+								<div class="item-menu__desc2">
+									<div class="item-menu__price price">
+										2.1 $
+									</div>
+									<button data-cart type="submit" class="item-menu__button button _icon-cart"></button>
+								</div>
+							</div>
+						</div>
+
+						<div class="menu__item item-menu product">
+							<div class="item-menu__rating bg-rating">
+								5
+								<span class="_icon-star"></span>
+							</div>
+							<div class="item-menu__img">
+								<img src="img/menu/Capppucino.png" class="item__img-prod" alt="item image">
+							</div>
+							<div class="item-menu__content">
+								<div class="item-menu__desc">
+									<h3 class="item-menu__title">
+										Cappucino
+
+									</h3>
+									<p>
+										Hot Cappucino
+
+									</p>
+
+								</div>
+								<div class="item-menu__desc2">
+									<div class="item-menu__price price">
+										1.9 $
+									</div>
+									<button data-cart type="submit" class="item-menu__button button _icon-cart"></button>
+								</div>
+							</div>
+						</div>
+
+						<div class="menu__item item-menu product">
+							<div class="item-menu__rating bg-rating">
+								4.8
+								<span class="_icon-star"></span>
+							</div>
+							<div class="item-menu__img">
+								<img src="img/menu/Moccacinno.png" class="item__img-prod" alt="item image">
+							</div>
+							<div class="item-menu__content">
+								<div class="item-menu__desc">
+									<h3 class="item-menu__title">
+										Moccacinno
+
+									</h3>
+									<p>
+
+										Hot Moccacino
+									</p>
+
+								</div>
+								<div class="item-menu__desc2">
+									<div class="item-menu__price price">
+										1.5 $
+									</div>
+									<button data-cart type="submit" class="item-menu__button button _icon-cart"></button>
+								</div>
+							</div>
+						</div>
+
+						<div class="menu__item item-menu product">
+							<div class="item-menu__rating bg-rating">
+								4.8
+								<span class="_icon-star"></span>
+							</div>
+							<div class="item-menu__img">
+								<img src="img/menu/Waffle.png" class="item__img-prod" alt="item image">
+							</div>
+							<div class="item-menu__content">
+								<div class="item-menu__desc">
+									<h3 class="item-menu__title">
+										Waffle Ice Crem
+
+									</h3>
+									<p>
+
+										Wafle with Ice cream
+									</p>
+
+								</div>
+								<div class="item-menu__desc2">
+									<div class="item-menu__price price">
+										2.3 $
+									</div>
+									<button data-cart type="submit" class="item-menu__button button _icon-cart"></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="say _anim-no-hide _anim-items">
+				<div class="say__container">
+					<div class="say__content">
+						<h2 class="say__title title">
+							What they say about us
+						</h2>
+						<p>We always provide the best service and always maintain the quality of coffee</p>
+
+					</div>
+					<div class="say__slider swiper">
+						<div class="say__wrapper swiper-wrapper">
+							<div class="say__slide slide-say swiper-slide">
+								<div class="slide-say__wrapper">
+									<img src="img/say/1.jpg" alt="slide foto">
+									<div class="slide-say__content">
+										<h4 class="slide-say__title">Naura</h4>
+										<p>I really love the cappucino, the coffee was very smooth </p>
+									</div>
+								</div>
+							</div>
+							<div class="say__slide slide-say swiper-slide">
+								<div class="slide-say__wrapper">
+									<img src="img/say/2.jpg" alt="slide foto">
+									<div class="slide-say__content">
+										<h4 class="slide-say__title">John</h4>
+										<p>this coffee shop is very convenient </p>
+									</div>
+								</div>
+							</div>
+							<div class="say__slide slide-say swiper-slide">
+								<div class="slide-say__wrapper">
+									<img src="img/say/3.jpg" alt="slide foto">
+									<div class="slide-say__content">
+										<h4 class="slide-say__title">Azura</h4>
+										<p>the coffee menu here is very much </p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-pagination"></div>
+					</div>
+
+
+				</div>
+
+			</section>
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container _anim-no-hide _anim-items">
+				<h2 class="footer__title title">Subscribe to get 50% discount price</h2>
+				<form class="footer__subscrible" action="#">
+					<input type="email" placeholder="Email address" ">
+			<button type=" submit" class="footer__button">Order now</button>
+				</form>
+			</div>
+		</footer>
+
+
+
+	</div>
+
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">Close</button>
+				<div class="modal">
+					<div class="modal__container order-modal" aria-modal="true">
+						<div class="modal-content order-modal__content">
+							<div class="order-modal__top">
+								<h2 class="order-modal__title">Checkout</h2>
+								<span class="order-modal__number">Order № 3456 67</span>
+							</div>
+							<div class="order-modal__info">
+								<div class="order-modal__quantity order-modal__info-item">Items per order: <span>3</span></div>
+								<div class="order-modal__summ order-modal__info-item">The total amount of the order: <span>500
+										USD</span>
+								</div>
+								<div class="order-modal__products order-modal__info-item">
+									<button class="order-modal__btn">Order list </button>
+									<ul data-simplebar class="cart-header__list cart-list order-modal__list">
+										<!-- <li class="order-modal__item">
+										<article class="order-modal__product order-product">
+											<img src="img/tomato.jpg" alt=" " class="order-product__img">
+											<div class="order-product__text">
+												<h4 class="order-product__title"></h4>
+												<span class="order-product__price">10 USD</span>
+											</div>
+											<button class="order-product__delete">Delete</button>
+										</article>
+									</li> -->
+									</ul>
+								</div>
+							</div>
+							<!-- ----------------------- -->
+							<form action="#" class="order-modal__form order">
+								<input type="hidden" name="theme" value="Back call">
+								<input type="hidden" name="admin_email[]" value="nazarkevych.julk@gmail.com">
+								<input type="hidden" name="form_subject" value="Application from the site">
+								<label class="order__label">
+									<span class="order__text">Your name</span>
+									<input type="text" name="Name" class="order__input">
+								</label>
+								<label class="order__label">
+									<span class="order__text">Phone</span>
+									<input type="tel" name="Phone" class="order__input" placeholder="+38(___)___-__-__">
+								</label>
+								<label class="order__label">
+									<span class="order__text">Your email</span>
+									<input type="email" name="Email" class="order__input" placeholder="post@gmail.com">
+								</label>
+								<button class="order__btn">To checkout</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230406233903"></script>
+
+</body>
+
+</html>
